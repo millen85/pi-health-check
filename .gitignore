@@ -1,0 +1,4 @@
+# Real config holds the ntfy topic and ping URL. Never commit it.
+.pi-health.conf
+pi-health.conf
+.pi-health-state/

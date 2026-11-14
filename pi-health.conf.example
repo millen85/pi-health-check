@@ -1,0 +1,13 @@
+# Copy this file to ~/.pi-health.conf on each Pi and edit the values.
+# The real file is gitignored. NEVER commit it (the topic acts like a password).
+
+# ntfy server and topic. Pick a long, hard-to-guess topic name.
+NTFY_URL="https://ntfy.sh"
+NTFY_TOPIC="change-me-to-something-long-and-random"
+
+# healthchecks.io ping URL (optional). Leave empty to skip the heartbeat.
+HC_PING_URL=""
+
+# Pi 1 ONLY: set to "yes" to watch the bird-fallout-tool cron.out file.
+# Leave as "no" on Pi 2.
+FALLOUT_LOG="no"
